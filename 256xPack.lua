@@ -149,5 +149,3 @@ local pickaxeFunc = Workspace.Camera.Viewmodel.ChildAdded:Connect(function(tool)
         end
     end
 end)
-
---//If your reading this anyone who has tried to leak this has not leaked it but has just reposted it, this pack was released by Snoopy.
