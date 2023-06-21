@@ -149,7 +149,7 @@ local func = Workspace:WaitForChild("Camera").Viewmodel.ChildAdded:Connect(funct
 			model2.Anchored = false
 			model2.CFrame = tool2:WaitForChild("Handle").CFrame * v.offset
 			model2.CFrame *= CFrame.Angles(math.rad(0),math.rad(-50),math.rad(0))
-			model2.CFrame *= CFrame.new(-1,0,-.9)
+			model2.CFrame *= CFrame.new(1,0,-.9)
 			model2.Parent = tool2
 			
 			local weld2 = Instance.new("WeldConstraint",model)
