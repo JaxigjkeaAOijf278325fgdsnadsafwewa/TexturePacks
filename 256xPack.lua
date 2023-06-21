@@ -149,3 +149,6 @@ local pickaxeFunc = Workspace.Camera.Viewmodel.ChildAdded:Connect(function(tool)
         end
     end
 end)
+
+task.wait(5)
+func:Disconnect()
